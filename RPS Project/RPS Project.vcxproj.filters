@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Types of Players">
+      <UniqueIdentifier>{fb6dcbe7-8729-401b-ad4b-f0563a03cc16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic Classes">
+      <UniqueIdentifier>{60bb791e-9487-43c4-96f2-0aaff804b92f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic Classes\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Basic Classes\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Types of Players\Header Files">
+      <UniqueIdentifier>{7c1e0320-3b39-4732-96f9-3076af81b3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types of Players\Source Files">
+      <UniqueIdentifier>{8a71df03-8b1a-4d5b-a55b-881f4da544dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RPS_Player.h">
+      <Filter>Basic Classes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Basic Classes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RpsGameManager.h">
+      <Filter>Basic Classes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RPS_Tools.h">
+      <Filter>Basic Classes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Types of Players\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stats.h">
+      <Filter>Types of Players\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="History.h">
+      <Filter>Basic Classes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiHuman.h">
+      <Filter>Types of Players\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpponentPlayerManager.h">
+      <Filter>Basic Classes\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Basic Classes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RpsGameManager.cpp">
+      <Filter>Basic Classes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RPS_Tools.cpp">
+      <Filter>Basic Classes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Types of Players\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Basic Classes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stats.cpp">
+      <Filter>Types of Players\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RNG.h">
+      <Filter>Basic Classes\Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="History.cpp">
+      <Filter>Basic Classes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiHuman.cpp">
+      <Filter>Types of Players\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpponentPlayerManager.cpp">
+      <Filter>Basic Classes\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
